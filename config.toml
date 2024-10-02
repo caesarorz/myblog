@@ -99,9 +99,9 @@ theme = "hugo-blog-awesome"
 [Languages.en.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Cesar's blog"
   name = "César O."
-  description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
+  description = "This blog is about technology, specially Python, C/C++ and more."
 
 # Allow to override webmanifest options
 [Languages.en.params.webmanifest]
@@ -123,17 +123,17 @@ theme = "hugo-blog-awesome"
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
-    name = 'Inizio'
+    name = 'Inicio'
     url = '/'
     weight = 10
   [[Languages.es.menu.main]]
     pageRef="posts"
-    name = 'Articoli'
+    name = 'Articulos'
     url = '/posts/'
     weight = 20
   [[Languages.es.menu.main]]
     pageRef="about"
-    name = 'Chi Sono'
+    name = 'Acerca'
     url = '/about/'
     weight = 30
 
@@ -163,9 +163,9 @@ theme = "hugo-blog-awesome"
 [Languages.es.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome tech blog"
+  intro = "Blog de César"
   name = "César O."
-  description = "Un tema Hugo veloce e minimalista con supporto per la modalità chiara e scura, per la gestione di un sito o di un blog personale."
+  description = "Este blog es acerca de tecnologia, especialmente mis experiencias con Python, C/C++, Django, Docker, entre muchos otros."
 
 # Allow to override webmanifest options
 [Languages.es.params.webmanifest]
@@ -185,13 +185,7 @@ theme = "hugo-blog-awesome"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/caesarorz"
 
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com"
 
-[[params.socialIcons]]
-name = "Rss"
-url = "/index.xml"
 
